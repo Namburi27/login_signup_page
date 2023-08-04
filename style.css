@@ -121,9 +121,16 @@ span.sign-up{
 
   body{
     background-image: url("https://cdn.wallpapersafari.com/23/75/ziUveN.jpg");
-    font-size: 12px;
+    font-size: 15px;
     color: white;
   }
+  form{
+    width:50vh;
+    padding: 0;
+  }
+  span.sign-up{
+    float:left;
+}
 }
 
 .signuppage{
