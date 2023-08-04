@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="logo-removebg-preview.png">
+  <link rel="stylesheet" href="style.css">
+  <title>LogIn Page</title>
+</head>
+<body>
+    <div class="loginpage" id="login">
+        <form>
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+            
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+            
+                <button type="submit" id="access">Login</button>
+                <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+            <div class="container">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+                <span class="sign-up">Not have an account<a href="#" id="loginToSignup">sign-up-Here</a></span>
+            </div>
+        </form>
+   </div>  
+   <div class="signuppage" id="sign">
+        <form>
+            <div class="container">
+                <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email Address" name="uname" required>
+                
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <label for="psw"><b>Repeat Password</b></label>
+                    <input type="password" placeholder="Repeat Password" name="psw" required>
+                
+                    <button type="submit" id="access">SignUp</button>
+                    <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+            </div>
+            <div class="container">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <span class="sign-up">Have an account<a href="#" id="signupToLogin">Login</a></span>
+            </div>
+        </form>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
